@@ -1,4 +1,6 @@
+Here's the updated README with a section on using HumAware-VAD with FastRTC:
 
+---
 
 # HumAware-VAD: Humming-Aware Voice Activity Detection
 
@@ -18,10 +20,26 @@ The primary goal of **HumAware-VAD** is to:
 - **Framework**: PyTorch
 - **Inference Speed**: Real-time
 
+## 🚀 Using HumAware-VAD with FastRTC
+You can integrate **HumAware-VAD** with **FastRTC** for real-time voice activity detection in streaming applications.
+
+### Installation
+```sh
+pip install humaware-vad
+```
+
+Run the script:
+```sh
+python app.py
+```
+
 ## ⚠️ Limitations
 - The model may **miss speech detection** if the user speaks too softly.
 - Works best for detecting **"mhm" humming sounds**.
 - May also work for sounds like **"la la la"** or **"da da da"**, but with **varying accuracy**.
+
+
+
 
 <!-- 
 ## 📥 Download & Usage
@@ -33,6 +51,11 @@ pip install humaware-vad
 ### 🔹 Load the Model
 ```python
 
+### Clone this repo
+```sh
+git clone https://github.com/CuriousMonkey7/HumAwareVad.git
+cd HumAwareVad
+```
 ```
 
 ### 🔹 Run Inference
