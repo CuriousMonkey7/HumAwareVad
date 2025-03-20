@@ -1,8 +1,10 @@
-Here's the updated README with a section on using HumAware-VAD with FastRTC:
-
----
-
 # HumAware-VAD: Humming-Aware Voice Activity Detection
+
+## Demo
+
+
+https://github.com/user-attachments/assets/ea06a06f-d9e8-4203-a982-56326d160c9e
+
 
 ## 📌 Overview
 **HumAware-VAD** is a fine-tuned version of the **[Silero-VAD](https://github.com/snakers4/silero-vad/tree/master)** model, trained to distinguish **humming from actual speech**. Standard Voice Activity Detection (VAD) models, including Silero-VAD, often misclassify humming as speech, leading to inaccurate speech segmentation. HumAware-VAD improves upon this by leveraging a custom dataset (**[HumSpeechBlend](https://huggingface.co/datasets/CuriousMonkey7/HumSpeechBlend)**) to enhance speech detection accuracy in the presence of humming.
@@ -28,6 +30,11 @@ You can integrate **HumAware-VAD** with **FastRTC** for real-time voice activity
 pip install humaware-vad
 ```
 
+### Clone the this Repository  
+```sh
+git clone https://github.com/CuriousMonkey7/HumAwareVad.git
+cd HumAwareVad
+```
 Run the script:
 ```sh
 python app.py
