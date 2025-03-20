@@ -1,0 +1,7 @@
+.venv
+dist
+humaware_vad.egg-info
+.env
+MANIFEST.in
+setup.py
+__pycache__/
