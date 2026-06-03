@@ -1,5 +1,5 @@
 # HumAware-VAD: Humming-Aware Voice Activity Detection
-## 📌 Overview
+## Overview
 **HumAware-VAD** is a fine-tuned version of the **[Silero-VAD](https://github.com/snakers4/silero-vad/tree/master)** model, trained to distinguish **humming from actual speech**. Standard Voice Activity Detection (VAD) models, including Silero-VAD, often misclassify humming as speech, leading to inaccurate speech segmentation. HumAware-VAD improves upon this by leveraging a custom dataset (**[HumSpeechBlend](https://huggingface.co/datasets/CuriousMonkey7/HumSpeechBlend)**) to enhance speech detection accuracy in the presence of humming.
 
 
